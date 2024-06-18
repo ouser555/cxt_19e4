@@ -1,0 +1,69 @@
+{
+    "manufacturer": "xxx",
+    "keyboard_name": "cxt_19e4",
+    "maintainer": "noone",
+    "url": "",
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "usb": {
+        "device_version": "1.0.0",
+        "vid": "0xC491",
+        "pid": "0x5794"
+    },
+    "diode_direction": "ROW2COL",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true,
+        "midi": true
+    },
+    "matrix_pins": {
+        "cols": ["D4", "D7", "B4", "B5"],
+        "rows": ["C7", "C6", "D6", "B0", "B1", "F4", "B7"]
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "D5", "pin_b": "D3", "resolution": 4},
+            {"pin_a": "B2", "pin_b": "B3", "resolution": 4},
+            {"pin_a": "F5", "pin_b": "F6", "resolution": 4},
+            {"pin_a": "E6", "pin_b": "F0", "resolution": 4}
+        ]
+    },    
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [1, 3], "x": 3, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2},
+                {"matrix": [2, 3], "x": 3, "y": 2},
+                {"matrix": [3, 0], "x": 0, "y": 3},
+                {"matrix": [3, 1], "x": 1, "y": 3},
+                {"matrix": [3, 2], "x": 2, "y": 3},
+                {"matrix": [4, 0], "x": 0, "y": 4},
+                {"matrix": [4, 1], "x": 1, "y": 4},
+                {"matrix": [4, 2], "x": 2, "y": 4},
+                {"matrix": [4, 3], "x": 3, "y": 4},
+                {"matrix": [5, 0], "x": 0, "y": 5},
+                {"matrix": [5, 1], "x": 1, "y": 5},
+                {"matrix": [5, 2], "x": 2, "y": 5},
+                {"matrix": [5, 3], "x": 3, "y": 5},
+                {"matrix": [6, 0], "x": 0, "y": 6},
+                {"matrix": [6, 1], "x": 1, "y": 6},
+                {"matrix": [6, 2], "x": 2, "y": 6},
+                {"matrix": [6, 3], "x": 3, "y": 6}
+            ]
+        }
+    }
+}

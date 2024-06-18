@@ -1,0 +1,244 @@
+{
+  "name": "cxt_19e4",
+  "vendorId": "0xC491",
+  "productId": "0x5794",
+  "matrix": {
+    "rows": 7,
+    "cols": 4
+  },
+  "customKeycodes": [
+    {
+      "name": "QWERTY",
+      "title": "Normal key",
+      "shortName": "QWERTY"
+    },
+    {
+      "name": "LOWER",
+      "title": "LOWER key",
+      "shortName": "LOWER"
+    },
+    {
+      "name": "RAISE",
+      "title": "RAISE key",
+      "shortName": "RAISE"
+    },
+    {
+      "name": "ADJUST",
+      "title": "ADJUST key",
+      "shortName": "ADJUST"
+    },
+    {
+      "name": "EXTRA01",
+      "title": "EXTRA01 key",
+      "shortName": "EXT01"
+    },
+    {
+      "name": "LAYSW",
+      "title": "LAYER SWITCH",
+      "shortName": "LAYSW"
+    },
+    {
+      "name": "MJMODE",
+      "title": "MASTER JOYS MODE",
+      "shortName": "MJMOD"
+    },
+    {
+      "name": "SJMODE",
+      "title": "SLAVE JOYS MODE",
+      "shortName": "SJMOD"
+    },
+    {
+      "name": "JRESET",
+      "title": "JOYS RESET",
+      "shortName": "JRST"
+    },
+    {
+      "name": "UNDO",
+      "title": "UNDO",
+      "shortName": "UNDO"
+    },
+    {
+      "name": "REDO",
+      "title": "REDO",
+      "shortName": "REDO"
+    },
+    {
+      "name": "COPY",
+      "title": "COPY",
+      "shortName": "COPY"
+    },
+    {
+      "name": "CUT",
+      "title": "CUT",
+      "shortName": "CUT"
+    },
+    {
+      "name": "PASTE",
+      "title": "PASTE",
+      "shortName": ""
+    },
+    {
+      "name": "SC_UP",
+      "title": "SCALE_UP",
+      "shortName": "SC_UP"
+    },
+    {
+      "name": "SC_DOWN",
+      "title": "SCALE_DOWN",
+      "shortName": "SC_DOWN"
+    },
+    {
+      "name": "SC_RESET",
+      "title": "SCALE_RESET",
+      "shortName": "SC_RESET"
+    },
+    {
+      "name": "CAPTCHA",
+      "title": "screen shot",
+      "shortName": "CAPTCHA"
+    },
+    {
+      "name": "SAVE",
+      "title": "SAVE",
+      "shortName": "SAVE"
+    },
+    {
+      "name": "SAVEAS",
+      "title": "SAVEAS",
+      "shortName": "SAVEAS"
+    },
+    {
+      "name": "NEXTTAB",
+      "title": "",
+      "shortName": "NTAB"
+    },
+    {
+      "name": "PREVTAB",
+      "title": "PREV TAB",
+      "shortName": "PTAB"
+    },
+    {
+      "name": "CLOSETAB",
+      "title": "CLOSE TAB",
+      "shortName": "CTAB"
+    },
+    {
+      "name": "RSTRTAB",
+      "title": "RESTART TAB",
+      "shortName": "RTAB"
+    },
+    {
+      "name": "NEXTAPP",
+      "title": "NEXT APP",
+      "shortName": "NAPP"
+    },
+    {
+      "name": "PREVAPP",
+      "title": "PREV APP",
+      "shortName": "PAPP"
+    },
+    {
+      "name": "SEARCH",
+      "title": "SEARCH",
+      "shortName": "SRCH"
+    },
+    {
+      "name": "IPADHOME",
+      "title": "IPAD HOME",
+      "shortName": "IPADH"
+    },
+    {
+      "name": "IPADDOCK",
+      "title": "IPAD DOCK",
+      "shortName": "IPADD"
+    },
+    {
+      "name": "CMD_CTL",
+      "title": "CMD_CTL",
+      "shortName": "CCTL"
+    }
+],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "x": 4
+        },
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        "5,2\n\n\n\n\n\n\n\n\ne2",
+        "5,3\n\n\n\n\n\n\n\n\ne3"
+      ],
+      [
+        {
+          "x": 4
+        },
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        {
+          "w": 2,
+          "h": 2
+        },
+        "5,1\n\n\n\n\n\n\n\n\ne1"
+      ],
+      [
+        {
+          "x": 1
+        },
+        "6,0"
+        ,
+        {
+          "x": 2
+        },
+        "2,0",
+        "2,1",
+        "2,2",
+        "2,3"
+      ],
+      [
+        "6,1",
+        {
+          "x": 1
+        },
+        "6,2",
+        {
+          "x": 1
+        },
+        "3,0",
+        "3,1",
+        "3,2"
+      ],
+      [
+        {
+          "x": 1
+        },
+        "6,3",
+        {
+          "x": 2
+        },
+        "4,0",
+        "4,1",
+        "4,2",
+        {
+            "y": -1,
+            "w": 1,
+            "h": 2
+        },
+        "4,3"
+      ],
+      [
+        {
+          "x": 8,
+          "y": -1,
+          "w": 2,
+          "h": 2
+        },
+        "5,0\n\n\n\n\n\n\n\n\ne0"
+      ]
+    ]
+  }
+}
