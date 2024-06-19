@@ -2,6 +2,9 @@
 
 ![cxt_studio](https://i.imgur.com/AMCTioSh.jpeg)
 
+![image](https://github.com/ouser555/cxt_19e4/blob/main/pic/0001.webp)
+https://github.com/ouser555/cxt_19e4/blob/main/pic/0001.webp
+
 19 key 4 knobs.
 
 Make example for this keyboard (after setting up your build environment):
